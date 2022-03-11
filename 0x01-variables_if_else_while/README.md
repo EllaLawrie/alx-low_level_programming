@@ -15,7 +15,9 @@
  * How to print variables using printf
  * What is the ASCII character set
  * What are the purpose of the gcc flags -m32 and -m64
- * 0-positive_or_negative.c: Positive anything is better than negative nothing
+ 
+ ## 0-positive_or_negative.c: Positive anything is better than negative nothing
+ 
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print it. The variable n will store a different value every time you will run this program; You don�^�^�t have to understand what rand, srand, RAND_MAX do. The output of the program should be:
 
     The number, followed by
