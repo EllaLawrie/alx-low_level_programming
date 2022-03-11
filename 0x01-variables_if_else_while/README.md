@@ -42,38 +42,75 @@ Write a program that prints the alphabet in lowercase, followed by a new line. P
 
 ## 5-print_numbers.c: Numbers
 Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line. All your code should be in the main function.
-Use the function printf; You are not allowed to use the function puts; Your program should return 0; Your program should compile without warning when using the -Wall gcc option using:
 
-{ #include <stdio.h>
+## 6-print_numberz.c: Numberz
+Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
-int main(void) { printf("with proper grammar, but the outcome is a piece of art,\n"); return (0); } }
+* You are not allowed to use any variable of type char
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* You can only use putchar twice in your code
+* All your code should be in the main function
 
-## 6-size.c: Size is not grandeur, and territory does not make a nation
-A C program that prints the size of various types on the computer it is compiled and run on. You should produce the exact same output as in the example; Warnings are allowed; Your program should return 0; You might have to install the package libc6-dev-i386 on your Linux (Vagrant) to test the -m32 gcc option using:
+## 7-print_tebahpla.c: Smile in the mirror
+Write a program that prints the lowercase alphabet in reverse, followed by a new line.
 
-{ #include <stdio.h>
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* All your code should be in the main function
+* You can only use putchar twice in your code
 
-int main(void) { int a; long int b; long long int c; char d; float f;
+## 8-print_base16.c: Hexadecimal
+Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
-printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
-printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-return (0);
-} }
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* All your code should be in the main function
+* You can only use putchar three times in your code
 
-## 100-intel: Intel
-A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c.
+## 9-print_comb.c: Patience, persistence and perspiration make an unbeatable combination for success
+Write a program that prints all possible combinations of single-digit numbers.
 
-Example: if the C file is main.c, the output file should be main.s using gcc -S -masm=intel $CFILE.
+* Numbers must be separated by ',', followed by a space ' '
+* Numbers should be printed in ascending order
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* All your code should be in the main function
+* You can only use putchar four times maximum in your code
+* You are not allowed to use any variable of type char
 
-## 101-quote.c: UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
-A C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts; Your program should return 1; Your program should compile without any warnings when using the -Wall gcc option using:
+## 100-print_comb3.c: Inventing is a combination of brains and materials. The more brains you use, the less material you need
+Write a program that prints all possible different combinations of two digits.
 
-{ #include <stdio.h>
+* Numbers must be separated by ',', followed by a space*' '*
+* The two digits must be different
+* 01 and 10 are considered the same combination of the two digits 0 and 1
+* Print only the smallest combination of two digits
+* Numbers should be printed in ascending order, with two digits
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* You can only use putchar five times maximum in your code
+* You are not allowed to use any variable of type char
+* All your code should be in the main function
 
-int main(void) { write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 61);
+## 101-print_comb4.c: The success combination in business is: Do what you do better... and: do more of what you do...
+Write a program that prints all possible different combinations of three digits.
 
-return (1);
-} }
+* Numbers must be separated by ',', followed by a space ' '
+* The three digits must be different
+* 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+* Print only the smallest combination of three digits
+* Numbers should be printed in ascending order, with three digits
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* You can only use putchar six times maximum in your code
+* You are not allowed to use any variable of type char
+* All your code should be in the main function
+
+## 102-print_comb5.c: Software is eating the World
+Write a program that prints all possible combinations of two two-digit numbers.
+
+* The numbers should range from 0 to 99
+* The two numbers should be separated by a space
+* All numbers should be printed with two digits. 1 should be printed as 01
+* The combination of numbers must be separated by comma, followed by a space
+* The combinations of numbers should be printed in ascending order
+* 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* You can only use putchar eight times maximum in your code
+* You are not allowed to use any variable of type char
+* All your code should be in the main function
