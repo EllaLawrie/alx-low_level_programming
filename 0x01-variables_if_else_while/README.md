@@ -68,7 +68,7 @@ Write a program that prints all the numbers of base 16 in lowercase, followed by
 ## 9-print_comb.c: Patience, persistence and perspiration make an unbeatable combination for success
 Write a program that prints all possible combinations of single-digit numbers.
 
-* Numbers must be separated by ',', followed by a space ' '
+* Numbers must be separated by ,, followed by a space 
 * Numbers should be printed in ascending order
 * You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 * All your code should be in the main function
@@ -78,7 +78,7 @@ Write a program that prints all possible combinations of single-digit numbers.
 ## 100-print_comb3.c: Inventing is a combination of brains and materials. The more brains you use, the less material you need
 Write a program that prints all possible different combinations of two digits.
 
-* Numbers must be separated by ',', followed by a space*' '*
+* Numbers must be separated by ,, followed by a space
 * The two digits must be different
 * 01 and 10 are considered the same combination of the two digits 0 and 1
 * Print only the smallest combination of two digits
@@ -91,7 +91,7 @@ Write a program that prints all possible different combinations of two digits.
 ## 101-print_comb4.c: The success combination in business is: Do what you do better... and: do more of what you do...
 Write a program that prints all possible different combinations of three digits.
 
-* Numbers must be separated by ',', followed by a space ' '
+* Numbers must be separated by ,, followed by a space 
 * The three digits must be different
 * 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
 * Print only the smallest combination of three digits
