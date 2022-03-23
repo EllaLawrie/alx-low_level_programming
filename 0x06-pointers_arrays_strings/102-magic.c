@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - print 102-magic, include a new line too
+ *
+ * Description: prints 102-magic
+ *
+ * Return: always 0 (success)
+ */
+
 int main(void)
 {
 int n;
